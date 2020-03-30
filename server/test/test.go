@@ -1,12 +1,13 @@
 package test
 
 import (
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/file"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
 	"log"
 	"path/filepath"
 	"strconv"
+
+	"ehang.io/nps/lib/common"
+	"ehang.io/nps/lib/file"
+	"github.com/astaxie/beego"
 )
 
 func TestServerConfig() {
